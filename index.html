@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Bali, Indonesia - The Island of the Gods. Explore popular attractions, curated travel packages, thrilling activities, and reserve your dream vacation today.">
+  <title>Explore Bali | [Destination Name] Travel &amp; Tours</title>
+  
+  <!-- Google Fonts for Modern Editorial Travel Aesthetics -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet (Pure CSS) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       Features pure CSS mobile hamburger menu (using checkbox hack, zero JS)
+       ========================================================================= -->
+  <header class="site-header" id="top">
+    <div class="container header-container">
+      <a href="#top" class="brand-logo" aria-label="WanderLust Bali Home">
+        <span class="logo-icon" aria-hidden="true">🌴</span>
+        <span class="logo-text">Wander<strong>Bali</strong></span>
+        <span class="logo-tagline">[Destination]</span>
+      </a>
+
+      <!-- Pure CSS Hamburger Checkbox Toggle (No JavaScript Required) -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" aria-label="Toggle navigation menu">
+      <label for="menu-toggle" class="menu-toggle-label" aria-label="Open menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#places" class="nav-link">Attractions</a></li>
+          <li class="nav-item"><a href="#packages" class="nav-link">Packages</a></li>
+          <li class="nav-item"><a href="#activities" class="nav-link">Activities</a></li>
+          <li class="nav-item"><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+          <li class="nav-item nav-cta-item">
+            <a href="#booking" class="btn btn-primary nav-btn">Book Your Trip</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         HERO SECTION
+         Welcoming introduction, immersive photography, key value badges
+         ========================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Your Gateway to Paradise &bull; [Destination Name]</span>
+        </div>
+        <h1 class="hero-title">
+          Experience the Enchantment of <span class="highlight-text">Bali</span>
+        </h1>
+        <p class="hero-description">
+          Immerse yourself in sun-drenched golden beaches, emerald rice terraces, ancient sacred temples, and unforgettable tropical tranquility. Discover your next adventure today.
+        </p>
+        
+        <div class="hero-actions">
+          <a href="#booking" class="btn btn-accent btn-lg">Plan Your Journey</a>
+          <a href="#places" class="btn btn-outline-light btn-lg">Explore Places</a>
+        </div>
+
+        <!-- Quick Travel Facts Bar -->
+        <div class="quick-facts-card">
+          <div class="fact-item">
+            <span class="fact-icon">☀️</span>
+            <div class="fact-info">
+              <span class="fact-label">Best Season</span>
+              <strong class="fact-value">Apr &ndash; Oct</strong>
+            </div>
+          </div>
+          <div class="fact-divider"></div>
+          <div class="fact-item">
+            <span class="fact-icon">🌡️</span>
+            <div class="fact-info">
+              <span class="fact-label">Avg Temperature</span>
+              <strong class="fact-value">27°C &ndash; 31°C</strong>
+            </div>
+          </div>
+          <div class="fact-divider"></div>
+          <div class="fact-item">
+            <span class="fact-icon">💳</span>
+            <div class="fact-info">
+              <span class="fact-label">Currency</span>
+              <strong class="fact-value">IDR (Rupiah)</strong>
+            </div>
+          </div>
+          <div class="fact-divider"></div>
+          <div class="fact-item">
+            <span class="fact-icon">✈️</span>
+            <div class="fact-info">
+              <span class="fact-label">Airport</span>
+              <strong class="fact-value">DPS (Ngurah Rai)</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         INTRODUCTION / ABOUT DESTINATION SECTION
+         ========================================================================= -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="grid-2-col about-grid">
+          <div class="about-images-wrapper">
+            <div class="about-image-card main-img-card">
+              <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=80" 
+                   alt="Breathtaking Ulun Danu Beratan water temple in Bali, Indonesia" 
+                   loading="lazy">
+              <div class="image-floating-badge">
+                <span class="badge-icon">⭐</span>
+                <div>
+                  <strong>4.9 / 5.0</strong>
+                  <small>Over 12,000+ happy visitors</small>
+                </div>
+              </div>
+            </div>
+            <div class="about-image-card secondary-img-card">
+              <img src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=600&q=80" 
+                   alt="Lush green tropical jungle and traditional Balinese architecture" 
+                   loading="lazy">
+            </div>
+          </div>
+
+          <div class="about-content">
+            <div class="section-tag">Welcome to [Destination Name]</div>
+            <h2 class="section-title">Where Ancient Culture Meets Tropical Splendor</h2>
+            <p class="lead-text">
+              Known affectionately across the globe as the <em>Island of the Gods</em>, Bali offers an intoxicating blend of spiritual heritage, warm island hospitality, and dramatic natural vistas.
+            </p>
+            <p class="body-text">
+              Whether you are hiking through mist-veiled volcano ridges at sunrise, soaking in the gentle rhythm of sacred water temples, or catching world-class ocean swells along limestone cliffs, every corner tells an unforgettable story.
+            </p>
+
+            <div class="highlights-list">
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <div>
+                  <strong>Cultural Splendor:</strong>
+                  <span>Centuries of Balinese dance, temple traditions, and artisan craft.</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <div>
+                  <strong>Culinary Delights:</strong>
+                  <span>Savor authentic Nasi Goreng, Babi Guling, fresh coconut water, and organic ocean-to-table cuisine.</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <div>
+                  <strong>Eco &amp; Wellness Havens:</strong>
+                  <span>World-famous holistic yoga retreats, restorative natural hot springs, and serene rice paddy spas.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta-row">
+              <a href="#places" class="btn btn-primary">Discover Key Attractions</a>
+              <a href="#booking" class="btn btn-secondary">Inquire Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         POPULAR PLACES TO VISIT SECTION
+         Cards with attractive images, tags, ratings, and descriptions
+         ========================================================================= -->
+    <section class="places-section bg-light" id="places">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Must-Visit Sights</span>
+          <h2 class="section-title">Popular Places in [Destination Name]</h2>
+          <p class="section-subtitle">
+            From iconic clifftop sanctuaries to secluded turquoise lagoons, explore the most celebrated landmarks of Bali.
+          </p>
+        </div>
+
+        <div class="places-grid">
+          <!-- Place Card 1 -->
+          <article class="place-card">
+            <div class="place-media">
+              <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80" 
+                   alt="Tegallalang emerald rice terraces in Ubud, Bali" 
+                   loading="lazy">
+              <span class="place-badge">Culture &amp; Nature</span>
+              <span class="place-rating">★ 4.9</span>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Ubud, Central Bali</div>
+              <h3 class="place-title">Tegallalang Rice Terraces</h3>
+              <p class="place-desc">
+                Marvel at ancient cooperative Subak irrigation canals cascading across terraced emerald hillsides, surrounded by swaying palms and art villages.
+              </p>
+              <div class="place-meta">
+                <span class="meta-tag">Scenic Walks</span>
+                <span class="meta-tag">Jungle Swings</span>
+                <span class="meta-tag">Art Markets</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Place Card 2 -->
+          <article class="place-card">
+            <div class="place-media">
+              <img src="https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?auto=format&fit=crop&w=800&q=80" 
+                   alt="Uluwatu sea temple perched on towering ocean cliffs" 
+                   loading="lazy">
+              <span class="place-badge">Heritage &amp; Sunsets</span>
+              <span class="place-rating">★ 4.8</span>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Bukit Peninsula, South Bali</div>
+              <h3 class="place-title">Uluwatu Clifftop Temple</h3>
+              <p class="place-desc">
+                Perched dramatically 70 meters above crashing Indian Ocean waves, famous for sunset Kecak fire dance ceremonies and breathtaking horizons.
+              </p>
+              <div class="place-meta">
+                <span class="meta-tag">Fire Dance</span>
+                <span class="meta-tag">Ocean Views</span>
+                <span class="meta-tag">Cliff Cafes</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Place Card 3 -->
+          <article class="place-card">
+            <div class="place-media">
+              <img src="https://images.unsplash.com/photo-1570789210967-2cac24afeb00?auto=format&fit=crop&w=800&q=80" 
+                   alt="Kelingking Beach dinosaur-shaped headland and crystal blue water in Nusa Penida" 
+                   loading="lazy">
+              <span class="place-badge">Island Icon</span>
+              <span class="place-rating">★ 5.0</span>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Nusa Penida Island</div>
+              <h3 class="place-title">Kelingking &ldquo;T-Rex&rdquo; Bay</h3>
+              <p class="place-desc">
+                World-famous limestone promontory resembling a prehistoric Tyrannosaurus overlooking azure turquoise water, white powdery sands, and manta rays.
+              </p>
+              <div class="place-meta">
+                <span class="meta-tag">Boat Tour</span>
+                <span class="meta-tag">Snorkeling</span>
+                <span class="meta-tag">Photography</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Place Card 4 -->
+          <article class="place-card">
+            <div class="place-media">
+              <img src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80" 
+                   alt="Sunrise over cloud inversion at Mount Batur volcanic caldera" 
+                   loading="lazy">
+              <span class="place-badge">Adventure Trek</span>
+              <span class="place-rating">★ 4.9</span>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Kintamani Highlands</div>
+              <h3 class="place-title">Mount Batur Sunrise Caldera</h3>
+              <p class="place-desc">
+                Ascend an active volcanic crater under starry pre-dawn skies to witness an extraordinary sunrise above a blanket of rolling clouds and Lake Batur.
+              </p>
+              <div class="place-meta">
+                <span class="meta-tag">Early Hike</span>
+                <span class="meta-tag">Hot Springs</span>
+                <span class="meta-tag">Coffee Tastings</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Place Card 5 -->
+          <article class="place-card">
+            <div class="place-media">
+              <img src="https://images.unsplash.com/photo-1546484475-7f7bd55792da?auto=format&fit=crop&w=800&q=80" 
+                   alt="Magnificent tropical waterfall cascading into a natural jungle pool" 
+                   loading="lazy">
+              <span class="place-badge">Hidden Gem</span>
+              <span class="place-rating">★ 4.7</span>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Buleleng, North Bali</div>
+              <h3 class="place-title">Sekumpul Twin Waterfalls</h3>
+              <p class="place-desc">
+                A pristine collection of seven cascading falls tucked deep within verdant rainforest canyons, offering crystal swimming pools and refreshing mists.
+              </p>
+              <div class="place-meta">
+                <span class="meta-tag">Jungle Trek</span>
+                <span class="meta-tag">Swimming</span>
+                <span class="meta-tag">Canyon Flora</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Place Card 6 -->
+          <article class="place-card">
+            <div class="place-media">
+              <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" 
+                   alt="Vibrant tropical sunset with colorful beach beanbags in Seminyak" 
+                   loading="lazy">
+              <span class="place-badge">Coastal Lifestyle</span>
+              <span class="place-rating">★ 4.8</span>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Seminyak &amp; Canggu</div>
+              <h3 class="place-title">Seminyak Sunset Beach</h3>
+              <p class="place-desc">
+                Lively beachside clubs, golden sand shores, sunset music lounges, and chic boutique avenues offering world-class dining and vibrant nightlife.
+              </p>
+              <div class="place-meta">
+                <span class="meta-tag">Beach Clubs</span>
+                <span class="meta-tag">Surfing</span>
+                <span class="meta-tag">Fine Dining</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         AVAILABLE TRAVEL PACKAGES SECTION
+         Featured pricing cards, inclusions, duration badges, and booking triggers
+         ========================================================================= -->
+    <section class="packages-section" id="packages">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Curated Itineraries</span>
+          <h2 class="section-title">Available Travel Packages</h2>
+          <p class="section-subtitle">
+            Thoughtfully planned holiday experiences crafted by local destination experts. Flexible dates, guided options, and private transport included.
+          </p>
+        </div>
+
+        <div class="packages-grid">
+          <!-- Package Card 1 -->
+          <article class="package-card">
+            <div class="package-header">
+              <span class="package-duration">⏱️ 4 Days / 3 Nights</span>
+              <h3 class="package-title">Weekend Island Escape</h3>
+              <p class="package-tagline">Ideal for a rejuvenating short tropical retreat</p>
+            </div>
+            <div class="package-price-wrap">
+              <span class="currency">$</span>
+              <span class="amount">399</span>
+              <span class="period">/ person [Placeholder]</span>
+            </div>
+            <ul class="package-features">
+              <li>✓ 4-Star Boutique Resort Accommodation</li>
+              <li>✓ Airport Pick-up &amp; Drop-off Included</li>
+              <li>✓ Guided Ubud Cultural Highlights Tour</li>
+              <li>✓ Daily Breakfast &amp; Welcome Coconut Drinks</li>
+              <li>✓ 1 Traditional Balinese Massage Session</li>
+              <li class="feature-disabled">✕ Nusa Penida Speedboat Transfer</li>
+            </ul>
+            <div class="package-footer">
+              <a href="#booking" class="btn btn-outline-primary btn-block">Select Package</a>
+            </div>
+          </article>
+
+          <!-- Package Card 2 (Featured / Most Popular) -->
+          <article class="package-card package-featured">
+            <div class="featured-ribbon">Most Popular</div>
+            <div class="package-header">
+              <span class="package-duration">⏱️ 7 Days / 6 Nights</span>
+              <h3 class="package-title">Signature Island Explorer</h3>
+              <p class="package-tagline">Our complete signature experience covering top landmarks</p>
+            </div>
+            <div class="package-price-wrap">
+              <span class="currency">$</span>
+              <span class="amount">749</span>
+              <span class="period">/ person [Placeholder]</span>
+            </div>
+            <ul class="package-features">
+              <li>✓ 5-Star Eco Luxury Villas with Private Pool</li>
+              <li>✓ Full-Time Private Chauffeur &amp; AC Vehicle</li>
+              <li>✓ Mount Batur Sunrise Trek with Breakfast</li>
+              <li>✓ Day Trip to Nusa Penida &amp; Snorkel Safari</li>
+              <li>✓ Uluwatu Sunset &amp; Kecak Fire Dance Tickets</li>
+              <li>✓ Balinese Cooking Class with Village Market Tour</li>
+            </ul>
+            <div class="package-footer">
+              <a href="#booking" class="btn btn-accent btn-block">Book Best Value</a>
+            </div>
+          </article>
+
+          <!-- Package Card 3 -->
+          <article class="package-card">
+            <div class="package-header">
+              <span class="package-duration">⏱️ 10 Days / 9 Nights</span>
+              <h3 class="package-title">Luxury Wellness &amp; Romance</h3>
+              <p class="package-tagline">Pure relaxation, secluded private pool villas &amp; dining</p>
+            </div>
+            <div class="package-price-wrap">
+              <span class="currency">$</span>
+              <span class="amount">1,299</span>
+              <span class="period">/ person [Placeholder]</span>
+            </div>
+            <ul class="package-features">
+              <li>✓ Clifftop 5-Star Ocean Villa Accommodation</li>
+              <li>✓ Private Candlelit Beachfront Seafood Dinner</li>
+              <li>✓ Daily Yoga Classes &amp; Holistic Ayurvedic Spa</li>
+              <li>✓ Catamaran Sunset Cruise with Champagne</li>
+              <li>✓ Dedicated 24/7 Personal Travel Concierge</li>
+              <li>✓ All Gourmet Meals &amp; Luxury Transport</li>
+            </ul>
+            <div class="package-footer">
+              <a href="#booking" class="btn btn-outline-primary btn-block">Select Package</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="package-note-box">
+          <span class="note-icon">💡</span>
+          <p>
+            <strong>Looking for a tailored schedule?</strong> We offer custom itineraries for solo travelers, families, weddings, and corporate getaways. <a href="#booking">Contact our concierge team</a> for custom quotes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         ACTIVITIES & EXPERIENCES SECTION
+         Grid of interactive travel experiences with iconography and imagery
+         ========================================================================= -->
+    <section class="activities-section bg-light" id="activities">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Things to Do</span>
+          <h2 class="section-title">Thrilling Activities &amp; Experiences</h2>
+          <p class="section-subtitle">
+            Whether you seek high-adrenaline ocean adventure, spiritual grounding, or culinary discovery, [Destination Name] offers something remarkable for everyone.
+          </p>
+        </div>
+
+        <div class="activities-grid">
+          <div class="activity-card">
+            <div class="activity-icon-wrap">🤿</div>
+            <h3 class="activity-title">Manta Ray Snorkeling</h3>
+            <p class="activity-desc">
+              Swim alongside graceful giant oceanic manta rays and vibrant coral reefs in the sheltered crystal bays of Nusa Penida and Lembongan.
+            </p>
+            <span class="activity-duration">Duration: 4 Hours &bull; Moderate</span>
+          </div>
+
+          <div class="activity-card">
+            <div class="activity-icon-wrap">🌋</div>
+            <h3 class="activity-title">Volcano Caldera Trek</h3>
+            <p class="activity-desc">
+              Hike through volcanic lava trails in the morning mist, steam eggs directly over natural vents, and view sunrise across crater lakes.
+            </p>
+            <span class="activity-duration">Duration: 6 Hours &bull; Active</span>
+          </div>
+
+          <div class="activity-card">
+            <div class="activity-icon-wrap">🏄‍♂️</div>
+            <h3 class="activity-title">Surfing on Coastal Reefs</h3>
+            <p class="activity-desc">
+              From gentle learner-friendly beach breaks in Kuta to world-famous barrel waves at Padang Padang, learn with certified instructors.
+            </p>
+            <span class="activity-duration">Duration: 2 Hours &bull; All Levels</span>
+          </div>
+
+          <div class="activity-card">
+            <div class="activity-icon-wrap">🍲</div>
+            <h3 class="activity-title">Traditional Cooking Class</h3>
+            <p class="activity-desc">
+              Visit colorful morning spice markets and craft authentic traditional dishes with secret spice pastes inside a local family compound.
+            </p>
+            <span class="activity-duration">Duration: 3.5 Hours &bull; Easy</span>
+          </div>
+
+          <div class="activity-card">
+            <div class="activity-icon-wrap">🧘‍♀️</div>
+            <h3 class="activity-title">Holistic Yoga &amp; Sound Baths</h3>
+            <p class="activity-desc">
+              Re-align your body and spirit at open-air bamboo shalas overlooking tropical jungle canopies with Himalayan sound bowls and meditation.
+            </p>
+            <span class="activity-duration">Duration: 90 Mins &bull; Relaxing</span>
+          </div>
+
+          <div class="activity-card">
+            <div class="activity-icon-wrap">🚣‍♂️</div>
+            <h3 class="activity-title">Ayung River White Water Rafting</h3>
+            <p class="activity-desc">
+              Paddle through grade II &amp; III rapids past towering rainforest cliffs, hidden natural waterfalls, and intricate cliff carvings.
+            </p>
+            <span class="activity-duration">Duration: 3 Hours &bull; Moderate</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         TRAVELER TESTIMONIALS SECTION
+         Social proof and authentic guest experiences
+         ========================================================================= -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Traveler Stories</span>
+          <h2 class="section-title">What Our Guests Say</h2>
+          <p class="section-subtitle">
+            Real memories from explorers who experienced the magic of [Destination Name] with our travel guides.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="rating-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              &ldquo;The Mount Batur sunrise hike and private villa in Ubud were beyond anything we dreamed of! The local team handled every single detail flawlessly.&rdquo;
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SM</div>
+              <div class="author-details">
+                <strong>Sarah Mitchell</strong>
+                <small>London, UK &bull; Explorer Package</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="rating-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              &ldquo;Booking our honeymoon in Bali through this website was effortless. The sunset dinner at Jimbaran Bay and Nusa Penida catamaran cruise made memories for life.&rdquo;
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">DL</div>
+              <div class="author-details">
+                <strong>David &amp; Lisa Chen</strong>
+                <small>Toronto, Canada &bull; Luxury Package</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="rating-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              &ldquo;Incredible responsiveness! As a solo traveler, I felt completely safe and welcomed. The surfing instructors and temple guides were knowledgeable and polite.&rdquo;
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">EB</div>
+              <div class="author-details">
+                <strong>Elena Rossi</strong>
+                <small>Milan, Italy &bull; Weekend Escape</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         BOOKING SECTION
+         Clean, responsive booking inquiry form with instant visual validation
+         ========================================================================= -->
+    <section class="booking-section bg-light" id="booking">
+      <div class="container">
+        <div class="booking-wrapper">
+          <div class="booking-info-panel">
+            <span class="section-tag tag-light">Reserve Your Spot</span>
+            <h2 class="booking-panel-title">Ready to Discover [Destination Name]?</h2>
+            <p class="booking-panel-desc">
+              Fill out this booking request and our certified travel specialists will craft a personalized itinerary with guaranteed best rates within 24 hours.
+            </p>
+
+            <div class="trust-perks">
+              <div class="perk-item">
+                <span class="perk-icon">🛡️</span>
+                <div>
+                  <strong>Free Cancellation</strong>
+                  <span>Cancel with zero penalties up to 48 hours prior to arrival</span>
+                </div>
+              </div>
+              <div class="perk-item">
+                <span class="perk-icon">🏷️</span>
+                <div>
+                  <strong>Best Price Guarantee</strong>
+                  <span>Direct local partner rates with no hidden agency markups</span>
+                </div>
+              </div>
+              <div class="perk-item">
+                <span class="perk-icon">📞</span>
+                <div>
+                  <strong>24/7 Dedicated Support</strong>
+                  <span>Direct WhatsApp and phone assistance throughout your trip</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-card-mini">
+              <span class="mini-icon">📍</span>
+              <div>
+                <strong>Concierge Headquarters:</strong>
+                <span>Jalan Raya Seminyak No. 88, Badung, Bali 80361</span>
+                <br>
+                <span>Email: concierge@[destination-website].com</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="booking-form-panel">
+            <form class="travel-booking-form" action="#booking-success" method="GET">
+              <h3 class="form-title">Trip Reservation Form</h3>
+              <p class="form-subtitle">Enter your travel details below to check availability.</p>
+
+              <!-- Field: Package Selection -->
+              <div class="form-group">
+                <label for="package-select" class="form-label">Select Travel Package / Interest *</label>
+                <select id="package-select" name="package" class="form-control" required>
+                  <option value="" disabled selected>-- Choose an Itinerary --</option>
+                  <option value="weekend-escape">Weekend Island Escape (4 Days / 3 Nights - $399)</option>
+                  <option value="signature-explorer">Signature Island Explorer (7 Days / 6 Nights - $749)</option>
+                  <option value="luxury-wellness">Luxury Wellness &amp; Romance (10 Days / 9 Nights - $1,299)</option>
+                  <option value="custom-trip">Custom Tailored Vacation Itinerary</option>
+                </select>
+              </div>
+
+              <!-- Two Column Row: Dates -->
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="departure-date" class="form-label">Arrival Date *</label>
+                  <input type="date" id="departure-date" name="arrival" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="return-date" class="form-label">Return Date *</label>
+                  <input type="date" id="return-date" name="departure" class="form-control" required>
+                </div>
+              </div>
+
+              <!-- Two Column Row: Guests & Accommodation -->
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="travelers-count" class="form-label">Travelers *</label>
+                  <select id="travelers-count" name="guests" class="form-control" required>
+                    <option value="1">1 Solo Explorer</option>
+                    <option value="2" selected>2 Adults (Couple / Friends)</option>
+                    <option value="family-3-4">3 &ndash; 4 Travelers (Family / Small Group)</option>
+                    <option value="group-5-plus">5+ Travelers (Group Expedition)</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="hotel-tier" class="form-label">Preferred Stay Style</label>
+                  <select id="hotel-tier" name="accommodation" class="form-control">
+                    <option value="boutique-resort">Boutique Eco Resort</option>
+                    <option value="private-villa">Luxury Private Pool Villa</option>
+                    <option value="beachfront-hotel">Beachfront 5-Star Hotel</option>
+                    <option value="budget-friendly">Comfortable Budget Inn</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Contact Info -->
+              <div class="form-group">
+                <label for="full-name" class="form-label">Your Full Name *</label>
+                <input type="text" id="full-name" name="name" class="form-control" placeholder="e.g. Eleanor Vance" required>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="email-address" class="form-label">Email Address *</label>
+                  <input type="email" id="email-address" name="email" class="form-control" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone-number" class="form-label">Phone / WhatsApp *</label>
+                  <input type="tel" id="phone-number" name="phone" class="form-control" placeholder="+1 (555) 000-0000" required>
+                </div>
+              </div>
+
+              <!-- Special Requests -->
+              <div class="form-group">
+                <label for="special-requests" class="form-label">Special Requests or Inquiries (Optional)</label>
+                <textarea id="special-requests" name="notes" class="form-control textarea" rows="3" placeholder="Dietary requirements, honeymoon setup, child seats, or specific tours you'd like to include..."></textarea>
+              </div>
+
+              <!-- Terms Checkbox -->
+              <div class="form-checkbox-group">
+                <input type="checkbox" id="terms-agree" name="terms" required>
+                <label for="terms-agree">
+                  I agree to receive booking confirmation and travel itineraries via email/phone.
+                </label>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-accent btn-block btn-submit">
+                <span>Check Availability &amp; Reserve</span>
+                <span class="btn-arrow">&rarr;</span>
+              </button>
+
+              <div id="booking-success" class="booking-notice">
+                🎉 <em>[Placeholder Alert] Thank you! In a live environment, your booking details are processed by your reservations team immediately.</em>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         FREQUENTLY ASKED QUESTIONS (Pure HTML5 <details> & <summary>, zero JS)
+         ========================================================================= -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Helpful Travel Tips</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Essential tips to prepare for your memorable visit to [Destination Name].
+          </p>
+        </div>
+
+        <div class="faq-accordion-wrap">
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span>When is the optimal time of year to visit [Destination Name]?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                The peak dry season runs from April to October, offering sunny blue skies, pleasant sea breezes, and minimal rainfall—ideal for surfing, diving, and hiking. The wet season (November to March) brings lush green foliage, quieter attractions, and attractive shoulder-season discounts.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Do I need a tourist visa upon arrival?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Visitors from over 90 countries can obtain a 30-day Visa on Arrival (e-VoA or upon landing at Ngurah Rai International Airport) for approximately $35 USD, extendable for an additional 30 days. Please ensure your passport is valid for at least 6 months from entry.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Can I customize the existing travel packages?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Absolutely! All packages are 100% modular. You can substitute activities (e.g., swap scuba diving for a culinary class), adjust trip durations, or upgrade your resort pool villas during the booking inquiry step.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>What is the cancellation and refund policy?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                We offer free full cancellation up to 48 hours before your arrival date on all standard guided tours. Bespoke private villa reservations may vary slightly depending on hotel partner regulations.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         NEWSLETTER / TRAVEL GUIDE DOWNLOAD CTA
+         ========================================================================= -->
+    <section class="newsletter-section">
+      <div class="container newsletter-content text-center">
+        <span class="newsletter-icon">📬</span>
+        <h2 class="newsletter-title">Receive Our Free [Destination Name] Travel Guide</h2>
+        <p class="newsletter-desc">
+          Subscribe for secret beach locations, local dining guides, seasonal promotions, and early-bird package discounts.
+        </p>
+        <form class="newsletter-form" action="#" method="GET">
+          <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+          <button type="submit" class="btn btn-accent newsletter-btn">Send My Guide</button>
+        </form>
+        <small class="newsletter-note">We respect your privacy. Unsubscribe whenever you wish.</small>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       Navigation links, destination placeholders, contact information, social icons
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div class="footer-col brand-col">
+          <a href="#top" class="footer-logo">
+            <span class="logo-icon">🌴</span>
+            <span>Wander<strong>Bali</strong></span>
+          </a>
+          <p class="footer-about">
+            Your trusted local guide to exploring [Destination Name]. Crafting inspiring, authentic, and safe travel memories since 2018.
+          </p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-link" title="Instagram">📷</a>
+            <a href="#" class="social-link" title="Facebook">📘</a>
+            <a href="#" class="social-link" title="YouTube">▶️</a>
+            <a href="#" class="social-link" title="TripAdvisor">🦉</a>
+          </div>
+        </div>
+
+        <!-- Col 2: Fast Navigation -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About [Destination]</a></li>
+            <li><a href="#places">Top Attractions</a></li>
+            <li><a href="#packages">Holiday Packages</a></li>
+            <li><a href="#activities">Things to Do</a></li>
+            <li><a href="#booking">Book a Vacation</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Destination Highlights -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Regions &amp; Hotspots</h4>
+          <ul class="footer-links">
+            <li><a href="#places">Ubud Rainforest</a></li>
+            <li><a href="#places">Seminyak &amp; Canggu</a></li>
+            <li><a href="#places">Uluwatu Cliffs</a></li>
+            <li><a href="#places">Nusa Penida Island</a></li>
+            <li><a href="#places">Mount Batur Caldera</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Concierge -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Direct Concierge</h4>
+          <ul class="footer-contact-list">
+            <li>📍 <strong>Address:</strong> Sunset Road No. 120, Kuta, Bali</li>
+            <li>📞 <strong>Hotline:</strong> +62 361 555 0192 [Placeholder]</li>
+            <li>✉️ <strong>Support:</strong> reservations@[destination].com</li>
+            <li>⏰ <strong>Hours:</strong> 24/7 Traveler Helpdesk</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 WanderBali / [Destination Name] Travel &amp; Tours. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#top">Privacy Policy</a>
+          <span>&bull;</span>
+          <a href="#top">Terms of Service</a>
+          <span>&bull;</span>
+          <a href="#top">Security</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
